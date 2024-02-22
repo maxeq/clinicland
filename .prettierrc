@@ -1,0 +1,27 @@
+{
+  "trailingComma": "all",
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "parser": "typescript",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json",
+        "ignorePath": ".prettierignore"
+      }
+    },
+    {
+      "files": "*.sol",
+      "options": {
+        "parser": "solidity-parse",
+        "ignorePath": ".prettierignore"
+      }
+    }
+  ]
+}
