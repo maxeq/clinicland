@@ -7,11 +7,161 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 800;
+}
+
 body {
     color: #333333;
+}
+
+.line26 {
+    line-height: 26px;
 }
 
 .dropshadow {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   }
   
+/* elements */
+
+.three-basis {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+flex: content;
+flex-wrap: nowrap;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.one-of-elements {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+gap: 16px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 22px 48px rgba(0, 0, 0, 0.05), 0px 6.63236px 14.4706px rgba(0, 0, 0, 0.0325794), 0px 2.75474px 6.01034px rgba(0, 0, 0, 0.025), 0px 0.996336px 2.17382px rgba(0, 0, 0, 0.0174206);
+border-radius: 16px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.point-one-out-of-three {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 42px;
+height: 42px;
+background: rgba(50, 148, 155, 0.5);
+border-radius: 40px;
+position: absolute;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.pint-inside-one {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2px 2px 0px 0px;
+width: 28px;
+height: 28px;
+position: absolute;
+background: #32949B;
+border-radius: 32px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.point {
+width: 7px;
+height: 20px;
+position: absolute;
+z-index: 10;
+font-family: 'Object Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 140%;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.subscribe-consultation {
+background: rgba(50, 148, 155, 0.07);
+}
+
+.button1 {
+    /* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+
+width: 125px;
+height: 50px;
+
+/* primary/1 */
+background: #32949B;
+border-radius: 0px 8px 8px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.small-text {
+    /* Нажимая кнопку “Записаться” вы соглашаетесь на обработку персональных данных. */
+
+width: 361px;
+height: 34px;
+
+/* text/12/regular */
+font-family: 'Object Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* or 17px */
+
+/* black/0.5 */
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}

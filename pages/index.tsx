@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function IndexPage() {
   return (
-    <div className="mx-[15px]">
+    <div className="mx-[20px]">
       <Header />
       <Intro />
     </div>

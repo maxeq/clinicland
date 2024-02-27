@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         cteal: '#32949B',
         cred: '#E4959E',
+        black1: '#666666/75',
+        black0: '#333333',
       },
       screens: {
         xs: '375px',
