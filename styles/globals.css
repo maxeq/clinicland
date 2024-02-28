@@ -2,26 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'ObjectSans-Regular';
+    src: url('/fonts/ObjectSans-Regular.otf') format('truetype');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'ObjectSans-Heavy';
+    src: url('/fonts/ObjectSans-Heavy.otf') format('truetype');
+    font-display: swap;
+  }
+  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	vertical-align: baseline;
+  scroll-behavior: smooth;
+  font-family: ObjectSans-Regular;
+  -webkit-font-smoothing: antialiased;
+
+}
+
 h1 {
     font-size: 65px;
     font-weight: 800;
+    font-family: ObjectSans-Heavy;
+    color: black;
 }
 
 h2 {
     font-size: 28px;
     font-weight: 800;
     line-height: 140%;
+    font-family: ObjectSans-Heavy;
+    color: black;
 }
 
 h3 {
     font-size: 22px;
     line-height: 140%;
     font-weight: 800;
+    font-family: ObjectSans-Heavy;
+    color: black;
 }
 
-body {
-    color: #333333;
+h4 {
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 800;
+  font-family: ObjectSans-Heavy;
+  color: black;
 }
+
+p {
+    color: #666666;
+}
+
+
+.ObjectSans-Regular {
+    font-family: 'ObjectSans-Regular';
+  }
+
+  .ObjectSans-Heavy {
+    font-family: 'ObjectSans-Heavy';
+    color: black;
+  }
+
+  .ObjectSans-Heavy-No-Color {
+    font-family: 'ObjectSans-Heavy';
+  }
 
 .line26 {
     line-height: 26px;
@@ -161,6 +221,46 @@ color: #999999;
 /* Inside auto layout */
 flex: none;
 order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.advantages {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+
+width: 393px;
+height: 979px;
+}
+
+.advantage-box {
+  /* element */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 20px;
+gap: 12px;
+
+
+
+background: #FFFFFF;
+/* black/0.1 */
+border: 1px solid #EBEBEB;
+/* shadow_1 */
+box-shadow: 0px 22px 48px rgba(0, 0, 0, 0.05), 0px 6.63236px 14.4706px rgba(0, 0, 0, 0.0325794), 0px 2.75474px 6.01034px rgba(0, 0, 0, 0.025), 0px 0.996336px 2.17382px rgba(0, 0, 0, 0.0174206);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
 align-self: stretch;
 flex-grow: 0;
 
