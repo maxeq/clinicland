@@ -1,5 +1,6 @@
 import Intro from '@/components/block1/intro';
 import Second from '@/components/block1/second';
+import Third from '@/components/block1/third';
 import Header from '@/components/header/header';
 import Image from 'next/image';
 
@@ -10,9 +11,10 @@ export default function IndexPage() {
         <Header />
         <Intro />
       </div>
-      <section className="">
-        <Second />
-      </section>
+      <Second />
+      <div>
+        <Third />
+      </div>
     </div>
   );
 }

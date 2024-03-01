@@ -234,7 +234,7 @@ align-items: flex-start;
 gap: 16px;
 
 width: 393px;
-height: 979px;
+height: 949px;
 }
 
 .advantage-box {
@@ -264,4 +264,23 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+}
+
+
+.count-price {
+/* answer */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 22px;
+gap: 20px;
+isolation: isolate;
+left: 0px;
+bottom: 0.24px;
+/* white/1 */
+background: #FFFFFF;
+/* shadow_1 */
+box-shadow: 0px 22px 48px rgba(0, 0, 0, 0.05), 0px 6.63236px 14.4706px rgba(0, 0, 0, 0.0325794), 0px 2.75474px 6.01034px rgba(0, 0, 0, 0.025), 0px 0.996336px 2.17382px rgba(0, 0, 0, 0.0174206);
+border-radius: 16px;
 }
