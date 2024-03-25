@@ -1,7 +1,10 @@
+import Contacts from '@/components/block1/contacts';
+import Examples from '@/components/block1/examples';
 import Fifth from '@/components/block1/fifth';
 import Fourth from '@/components/block1/fourth';
 import Intro from '@/components/block1/intro';
 import Second from '@/components/block1/second';
+import Sixths from '@/components/block1/sixths';
 import Third from '@/components/block1/third';
 import Header from '@/components/header/header';
 import Image from 'next/image';
@@ -20,6 +23,9 @@ export default function IndexPage() {
       </div>
       <div>
         <Fifth />
+        <Sixths />
+        <Examples />
+        <Contacts />
       </div>
     </div>
   );

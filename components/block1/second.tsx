@@ -39,7 +39,7 @@ export default function second() {
                 <span className="ObjectSans-Heavy"> предложим альтернативный вариант.</span>
               </p>
               <div className="py-8">
-                <div className="flex h-[50px]">
+                <div className="flex h-[50px] relative">
                   <Input className="border rounded" label="Номер телефона">
                     Номер телефона
                   </Input>
