@@ -1,3 +1,5 @@
+import Fifth from '@/components/block1/fifth';
+import Fourth from '@/components/block1/fourth';
 import Intro from '@/components/block1/intro';
 import Second from '@/components/block1/second';
 import Third from '@/components/block1/third';
@@ -14,6 +16,10 @@ export default function IndexPage() {
       <Second />
       <div>
         <Third />
+        <Fourth />
+      </div>
+      <div>
+        <Fifth />
       </div>
     </div>
   );

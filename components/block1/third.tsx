@@ -1,6 +1,7 @@
 import { Button, Input, Progress } from '@nextui-org/react';
 import React from 'react';
 import Image from 'next/image';
+import { FaChevronRight } from 'react-icons/fa6';
 
 export default function third() {
   return (
@@ -116,12 +117,12 @@ export default function third() {
           </div>
         </div>
       </div>
-      <div className="pl-[16px] mt-20 pr-[16px]">
-        <Button className="w-full rounded-md bg-cteal text-white tracking-wider text-[16px] my-5">
-          Записаться
+      <div className="pl-[16px] mt-20 pr-[16px] ">
+        <Button className="w-full rounded-md bg-cteal text-white tracking-wider h-[55px] text-[16px] my-3">
+          Следующий вопрос <FaChevronRight />
         </Button>
         <div className="flex items-center justify-center gap-3 text-sm">
-          <p className="">
+          <p className="text-[12px]">
             Выберите верный для Вас ответ и нажмите кнопку{' '}
             <span className="ObjectSans-Heavy">“Следующий вопрос”</span>
           </p>
