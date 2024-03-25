@@ -3,6 +3,7 @@ import Examples from '@/components/block1/examples';
 import Fifth from '@/components/block1/fifth';
 import Fourth from '@/components/block1/fourth';
 import Intro from '@/components/block1/intro';
+import Reviews from '@/components/block1/reviews';
 import Second from '@/components/block1/second';
 import Sixths from '@/components/block1/sixths';
 import Third from '@/components/block1/third';
@@ -26,6 +27,7 @@ export default function IndexPage() {
         <Sixths />
         <Examples />
         <Contacts />
+        <Reviews />
       </div>
     </div>
   );
