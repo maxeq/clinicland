@@ -200,7 +200,13 @@ export default function second() {
             fill
             alt={'phone'}
           />
-          <Image src={'/img/3_sales/senior-couple.jpg'} objectFit="cover" fill alt={'phone'} />
+          <Image
+            src={'/img/3_sales/senior-couple.png'}
+            className="z-10"
+            objectFit="cover"
+            fill
+            alt={'phone'}
+          />
 
           <div className="w-full h-[70px] absolute -bottom-0.5">
             {' '}
@@ -208,7 +214,7 @@ export default function second() {
               src={'/img/1_intro/hr.png'}
               objectFit="contain"
               objectPosition="bottom"
-              className="absolute"
+              className="absolute z-20"
               fill
               alt={'phone'}
             />

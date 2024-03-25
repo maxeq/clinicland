@@ -57,8 +57,14 @@ function Intro() {
           Импланты устанавливаются в кость челюсти в заранее определенные участки, и затем на
           имплантах фиксируется зубной протез.
         </p>
-        <div className="h-[290px] w-full relative">
-          <Image src={'/img/2_what-is/jaw.png'} objectFit="contain" fill alt={'phone'} />
+        <div className="h-[290px] w-full relative ">
+          <Image
+            src={'/img/2_what-is/jaw.png'}
+            className="z-20"
+            objectFit="contain"
+            fill
+            alt={'phone'}
+          />
         </div>
         <p className="line26">
           Имплант имеет сложное строение,<br></br> включающее
